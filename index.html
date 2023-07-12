@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chifoumi</title>
+</head>
+<body>
+    <div class="score">
+        <p>Vous</p>
+        <p>Ordinateur</p>
+        <p id="player-score">0</p>
+        <p id="computer-score">0</p>
+        <div id="reset">Réinitialiser</div>
+    </div>
+    <div class="action">
+        <p id="message">A vous de jouer !</p>
+        <div id="next">Tour suivant</div>
+    </div>
+    <div class="game">
+        <div class="choice">
+            <div class="button btn-player" id="rock">
+                <img src="./assets/rock.png" alt="Pierre">
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-player" id="paper">
+                <img src="./assets/paper.png" alt="Feuille">
+                <p>Feuille</p>
+            </div>
+            <div class="button btn-player" id="scissors">
+                <img src="./assets/scissors.png" alt="Ciseaux">
+                <p>Ciseaux</p>
+            </div>
+        </div>
+        <div class="choice">
+            <div class="button btn-computer" id="c-rock">
+                <img src="./assets/rock.png" alt="Pierre">
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-computer" id="c-paper">
+                <img src="./assets/paper.png" alt="Feuille">
+                <p>Feuille</p>
+            </div>
+            <div class="button btn-computer" id="c-scissors">
+                <img src="./assets/scissors.png" alt="Ciseaux">
+                <p>Ciseaux</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
